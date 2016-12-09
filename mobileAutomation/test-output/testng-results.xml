@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="23935" started-at="2016-10-15T06:53:12Z" finished-at="2016-10-15T06:53:35Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="23935" started-at="2016-10-15T06:53:12Z" finished-at="2016-10-15T06:53:35Z">
+      <class name="com.andriod.inboxtest.GmailWebTest">
+        <test-method status="FAIL" signature="gmailBrowserTest(java.lang.reflect.Method, org.testng.xml.XmlTest)[pri:0, instance:com.andriod.inboxtest.GmailWebTest@3c756e4d]" name="gmailBrowserTest" duration-ms="23902" started-at="2016-10-15T12:23:12Z" finished-at="2016-10-15T12:23:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.andriod.inboxtest.GmailWebTest.gmailBrowserTest(java.lang.reflect.Method,org.testng.xml.XmlTest) throws java.io.IOException,java.lang.InterruptedException]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Test: "Test" verbose:1[parameters:][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.andriod.inboxtest.GmailWebTest]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy5.sendKeys(Unknown Source)
+	at com.andriod.pomrepository.GmailWeb.login(GmailWeb.java:33)
+	at com.andriod.inboxtest.GmailWebTest.gmailBrowserTest(GmailWebTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:100)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:646)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:811)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1129)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:746)
+	at org.testng.TestRunner.run(TestRunner.java:600)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1264)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1189)
+	at org.testng.TestNG.runSuites(TestNG.java:1104)
+	at org.testng.TestNG.run(TestNG.java:1076)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:152)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:57)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmailBrowserTest -->
+      </class> <!-- com.andriod.inboxtest.GmailWebTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

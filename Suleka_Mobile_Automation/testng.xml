@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    
+    <parameter name="PLATFORM_NAME" value="andriod"/>
+        <parameter name="DEVICE_NAME" value="moto g4"/>
+        <parameter name="PLATFORM_VERSION" value="6.0.1"/>
+        <parameter name="NO_RESET" value="true"/>
+        <parameter name="NEW_COMMAND_TIMEOUT" value="10"/>
+        <parameter name="hostName" value="127.0.0.1"/>
+        <parameter name="portNumber" value="4723"/>
+   
+  <test name="Test">
+      
+    <classes>
+      <class name="Sulekha_TestScript.SearchTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
